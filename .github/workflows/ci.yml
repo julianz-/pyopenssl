@@ -11,7 +11,6 @@ jobs:
       matrix:
         PYTHON:
           # Base builds
-          - {VERSION: "3.7", TOXENV: "py37"}
           - {VERSION: "3.8", TOXENV: "py38"}
           - {VERSION: "3.9", TOXENV: "py39"}
           - {VERSION: "3.10", TOXENV: "py310"}
